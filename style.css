@@ -161,12 +161,14 @@ main section:nth-of-type(3) div {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 main section:nth-of-type(3) article {
     flex: 1;
     padding: 1rem;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #FAF3E9;
     border-radius: 5px;
     background-color: #FAF3E9;
 }
@@ -237,6 +239,59 @@ footer div {
     gap: 1rem;
     padding-bottom: 2rem;
 }
+
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10%;
+    background-color: #FAF3E9;
+}
+section.hero img {
+    flex: 1;
+    height: auto;
+    max-width: 100%;
+}
+
+section.cours {
+    padding: 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+section.cours h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+section.cours div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+section.cours article {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #FAF3E9;
+    border-radius: 5px;
+    background-color: #FAF3E9;
+}
+section.cours article h3 {
+    margin-bottom: 1rem;
+}
+section.cours article p {
+    margin-bottom: 1rem;
+}
+section.cours section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+section.cours div p {
+    padding: 1rem;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     header {
